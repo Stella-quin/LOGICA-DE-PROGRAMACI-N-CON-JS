@@ -1,0 +1,66 @@
+//1. ------------------------------------------------------------------
+let SemanaUsuario = prompt("¿que dia de la semana es?");
+
+if (SemanaUsuario == "sabado"){
+    alert("¡Buen fin de semana!");
+}  
+
+else if(SemanaUsuario=="domingo"){
+    alert("¡Buen fin de semana!")
+}
+
+else{
+    alert("buena semana!")
+}
+//2. --------------------------------------------------------------------
+let NumeroUsuario = prompt("ingrese un numero");
+if (NumeroUsuario >0){
+    alert("el numero es positivo")
+}
+else if (NumeroUsuario<0){
+    alert("el numero es negativo")
+}
+
+//3------------------------------------------------------------------------
+
+let qtdNumeros = prompt('Digite la cantidad de números para el cálculo del promedio:');
+let soma = 0;
+let contador = qtdNumeros;
+
+while(contador>0){
+    let numero = parseInt(prompt('Digite el numero:'));
+    soma += numero;
+    contador--
+}
+
+let promedio = soma / qtdNumeros;
+alert(promedio);
+
+//EJERCICIOS WHILE
+//Crea un contador que comience en 1 y vaya hasta 10 usando un bucle 'while'. Muestra cada número
+
+contador=0;
+while(contador<10){
+    contador+=1
+    alert(contador)
+}
+
+
+//Crea un contador que comience en 10 y vaya hasta 0 usando un bucle 'while'. Muestra cada número.
+contador=11
+while(contador!=0){
+    contador-=1
+    alert(contador)
+}
+
+//Crea un programa de cuenta progresiva. Pide un número y cuenta desde 0 hasta ese número utilizando 
+un bucle 'while' en la consola del navegador
+
+contador=0;
+let num = prompt("ingresa el numero")
+
+while(contador<num){
+    contador+=1
+    alert(contador)
+}
+
