@@ -1,0 +1,28 @@
+1. Crea una función que calcule el valor del factorial de un número pasado como parámetro.
+
+let numeroUsuari = 5;
+let factorial = 1;
+
+for (let i = 1; 
+    i <= numeroUsuari; 
+    i++) {
+    factorial *= i;
+} //factorial = factorial*i
+//1 (factorial)
+// 1*2(i) = 2(factotial)
+// 2*3(i) = 6(factotial)
+// 6*4(i) = 24(factotial)
+// 24*5(i) = 120(factotial)
+
+console.log(factorial);
+
+// 2____________ forma 2 de hacer un factorial con while
+
+let numero = 5;
+let facto = 1;
+let i = 1
+
+while(i<=numero){
+    facto = facto * i;
+    i++;
+}
