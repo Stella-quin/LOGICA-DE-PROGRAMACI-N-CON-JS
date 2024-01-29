@@ -27,3 +27,15 @@ while(i<=numero){
     i++;
 }
 
+3. TABLA DE MULTIPLICAR
+//Crea una función que muestre en pantalla la tabla de multiplicar de un número dado como parámetro.
+
+let i = 0
+function TablaMultiplicar(numero){
+    while(i<=9){
+        i++;
+        let result = numero*i;
+        console.log(`${numero} x ${i} = ${result}`);
+    }
+}
+TablaMultiplicar(5);
